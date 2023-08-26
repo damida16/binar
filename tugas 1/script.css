@@ -1,0 +1,350 @@
+.navbar {
+    height: 70px;
+    z-index: 3;
+    background-color:azure;
+}
+
+.navbar .navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    position: absolute;
+    left: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon::before {
+    top: -8px;
+}
+
+.navbar-toggler-icon::after {
+    bottom: -8px;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.offcanvas-body .nav-item .btn {
+    width: Hug (81px);
+    height: Hug (36px);
+    padding: 8px 12px 8px 12px;
+    border-radius: 2px;
+    gap: 10px;
+    background: #5CB85F;
+} 
+
+
+
+.sc-home1 {
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-top: 60px;
+}
+
+.sc-home1-kanan img {
+  width: 40rem;
+  height: 23rem;
+}
+
+.sc-home1-kiri {
+  padding-right: 1rem;
+}
+
+.sc-home1-kiri button {
+  width: 10rem;
+  height: 3rem;
+  background-color: #5cb85f;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+}
+
+.sc-home1-kiri p {
+  margin-top: 1rem;
+}
+
+.sc-home2-kiri img {
+  width: 28rem;
+  height: 26rem;
+}
+
+.kategori-1 {
+  display: flex;
+  gap: 0.2rem;
+  padding: 0.1rem;
+}
+
+.kategori-1 img {
+  margin-bottom: 0.7rem;
+}
+
+.sc-home-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+  gap: 6rem;
+}
+
+.sc-home-3-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  width: 16rem;
+  height: 10rem !important;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 1rem 1rem;
+}
+.sc-home-3 {
+  padding: 6rem;
+}
+
+.testimonial {
+  display: flex;
+  width: 38rem;
+  height: 16rem;
+  background-color: #f1f3ff;
+  align-items: center !important;
+  gap: 2rem;
+  padding: 4rem 1rem 4rem 2rem;
+  margin-left: 19rem;
+  margin-right: 19rem;
+}
+
+.img-testi img {
+  height: 5rem;
+  width: 5rem;
+}
+.sc-home5 button {
+  width: 9rem;
+  height: 2rem;
+  background-color: #5cb85f;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+}
+
+.sc-home5 {
+  background-color: #0d28a6;
+  color: #ffff;
+  width: 64rem;
+  height: 20rem;
+  margin: auto;
+}
+
+.tengah {
+  padding: 4rem 16rem;
+  text-align: center;
+}
+
+.sc-home4 {
+  
+  margin-bottom: 7rem;
+  
+}
+
+.btn-wrap {
+  margin-top: 1rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  b
+  position: relative;
+  
+}
+
+.btn-prev,
+.btn-next {
+  position: relative !important;
+  padding: 4px !important;
+  height: 30px !important;
+  width: 30px !important;
+  opacity: 100 !important;
+  border: 1px solid #c4c4c4;
+  background-color: black !important;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 15px;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background-color: green !important;
+}
+
+.img-card {
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.h2{
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.p{
+  font-size: 14px !important;
+}
+
+.posisi {
+  position: relative;
+}
+
+.FAQ{
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem;
+
+}
+
+.accordion-item {
+  width: 35rem;
+}
+
+.accordion-header button {
+  border-radius: 10px;
+  border: 1px #D4D4D4;
+
+;}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.footer3 img {
+  width: 224px;
+  height: 32px;
+}
+
+.footer1 {
+  width: 268px;
+  height: 112px;
+}
+
+.footer2 {
+  width: 90px;
+  height: 128px;
+}
+
+.footer2 p {
+  font-weight: 600;
+}
+
+.kotak {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        background-color: white;
+        width: 50%;
+        max-width: 300px;
+    }
+    .sc-home1 {
+      display: block;
+      padding-top: 80px;
+      width: 400px;
+      padding-left: 20px;
+    }
+    .sc-home1-kanan img {
+      width: 21rem;
+      height: 12rem;
+      padding-top: 20px;
+    }
+
+    .sc-home-2 {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .sc-home2-kiri img {
+      width: 15rem;
+      height: 228px;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+    }
+    .sc-home-3 {
+      padding-left: 20px;
+      padding-top: 0;
+      text-align: center;
+      padding-right: 20px;
+      align-items: center;
+    }
+    .sc-home-3-card {
+      display: grid;
+      text-align: left;
+      padding: 45px;
+      row-gap: 20px;
+      padding-top: 0;
+    }
+    .sc-home4 {
+      display: block;
+    }
+
+    .testimonial {
+      margin-left: 2rem;
+      width: 20rem;
+      display: block;
+      height: 26rem;
+    }
+
+    .sc-home5{
+      width: 20rem;
+      height: 25rem;
+      
+    }
+    .sc-home5 .tengah {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .FAQ {
+      display: block;
+      padding-left: 20px;
+    }
+    .accordion-item {
+  width: 22rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 0;
+  gap: 30px;
+}
+
+
+}
